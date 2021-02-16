@@ -3,19 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.1",
     "materialize-css": "^1.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-moment": "^1.1.1",
-    "react-redux": "^7.2.2",
-    "react-scripts": "4.0.2",
-    "redux": "^4.0.5",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-moment": "^0.9.2",
+    "react-redux": "^7.0.3",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0",
-    "web-vitals": "^1.1.0"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,9 +23,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -43,8 +38,8 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "json-server": "^0.16.3"
+    "concurrently": "^4.1.0",
+    "json-server": "^0.15.0"
   },
   "proxy": "http://localhost:5000"
 }
